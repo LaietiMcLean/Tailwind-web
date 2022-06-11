@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind - Web | Course</title>
+    <!--Styles-->
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" >
+
+</head>
+<body class="
+    bg-body-pattern 
+    bg-scroll 
+">
+
+    <!--Header-->
+    <header id="header" class="
+        h-20
+        bg-black
+        text-white
+        bebas
+        xs:h-36
+    ">
+        <div class="
+            container 
+            w-11/12 
+            mx-auto 
+            flex 
+            flex-row 
+            xs:flex-col
+        ">
+            <div id="logo" class="flex-1 xs:mx-auto">
+                <div class="
+                    group
+                    w-64
+                    pt-0.5
+                    pb-0.5
+                    mt-4
+                    ml-6
+                    text-center
+                    tracking-wider
+                    cursor-pointer
+                    overflow-hidden
+                    transitionduration-200
+                    rounded-sm
+                    bg-blue-light
+                    hover:text-black
+                    hover:bg-gray-200
+                ">
+                    <span class="
+                        symbol
+                        block
+                        float-left
+                        text-3xl
+                        mt-1
+                        ml-11
+                        animate-spin-low
+                        group-hover:animate-none
+                        group-hover:animate-from-bellow
+                    ">
+                        S
+                    </span>
+                    <h3 class="
+                        block
+                        float-right
+                        text-4xl
+                        mt-1.5
+                        mr-16
+                        transition
+                        duration-100
+                        group-hover:animate-from-rigth
+                    ">
+                        TAILWIND
+                    </h3>
+                </div>
+            </div>
+            <nav class="flex-1">
+              <ul class="
+                flex
+                flex-row
+                h-20
+                items-center
+                text-2xl
+                text-center
+                mr-6
+                xs:mr-0
+                xs:text-center
+                md:justify-end 
+              ">
+                  <li class="menu-item">
+                      <a href="#" class="menu-item-a">INICIO</a>
+                  </li>
+                  <li class="menu-item">
+                      <a href="#" class="menu-item-a">BLOG</a>
+                  </li>
+                  <li class="menu-item">
+                      <a href="#" class="menu-item-a">FORMACIÓN</a>
+                  </li>
+                  <li class="menu-item">
+                      <a href="#" class="menu-item-a">CONTACTO</a>
+                  </li>
+              </ul>  
+            </nav>
+        </div>
+    </header>
+    <!--End / Header-->
+
+    <!--Info section-->
+    <section class="container w-11/12 mx-auto">
+        <!--Banner-->
+        <div id="banner" class="
+            w-full
+            h-28
+            mx-auto
+            border-8
+            border-white
+            overflow-hidden
+            shadow
+            m-5
+            bg-banner
+            bg-banner-position
+            animate-bg-banner
+        ">
+            <h1 class="
+                text-banner
+                block
+                text-white
+                text-4xl
+                font-normal
+                tracking-wider
+                m-7
+                mx-auto
+                text-center
+                animate-text-banner
+                xs:text-2xl
+                xs:mt-8
+            ">
+            WEB DEVELOPMENT COURSE USING TAILWIND CSS</h1>
+        </div>
+        <!--End / Banner-->
+
+        <!--Cards-->
+        <div id="cards" class="flex flex-nowrap justify-between">
+            <div class="card">
+                <span class="
+                    card-icon
+                    transform
+                    group-hover:scale-150
+                    group-hover:text-blue-light
+                    group-hover:animate-show-card-icon
+                ">
+                    H
+                </span>
+                <h2 class="
+                    card-category
+                    group-hover:text-white
+                    group-hover:animate-show-card-category
+                ">
+                    Web Development
+                </h2>
+                <p class="
+                    card-description
+                    group-hover:text-white
+                    group-hover:animate-show-card-desc
+                ">
+                    Know the most used languages
+                </p>
+            </div>
+
+            <div class="card">
+                <span class="
+                    card-icon
+                    transform
+                    group-hover:scale-150
+                    group-hover:text-blue-light
+                    group-hover:animate-show-card-icon
+                ">
+                    _
+                </span>
+                <h2 class="
+                    card-category
+                    group-hover:text-white
+                    group-hover:animate-show-card-category
+                ">
+                    OS
+                </h2>
+                <p class="
+                    card-description
+                    group-hover:text-white
+                    group-hover:animate-show-card-desc
+                ">
+                    Learn about operating system
+                </p>
+            </div>
+
+            <div class="card">
+                <span class="
+                    card-icon
+                    transform
+                    group-hover:scale-150
+                    group-hover:text-blue-light
+                    group-hover:animate-show-card-icon
+                ">
+                    S
+                </span>
+                <h2 class="
+                    card-category
+                    group-hover:text-white
+                    group-hover:animate-show-card-category
+                ">
+                    Hardware
+                </h2>
+                <p class="
+                    card-description
+                    group-hover:text-white
+                    group-hover:animate-show-card-category
+                ">
+                    Everything you must know about Hardware
+                </p>
+            </div>
+
+            <div class="card">
+                <span class="
+                    card-icon
+                    transform
+                    group-hover:scale-150
+                    group-hover:text-blue-light
+                    group-hover:animate-show-card-icon
+                ">
+                    u
+                </span>
+                <h2 class="
+                    card-category
+                    group-hover:text-white
+                    group-hover:animate-show-card-category
+                ">
+                    Networks & Internet
+                </h2>
+                <p class="
+                    card-description
+                    group-hover:text-white
+                    group-hover:animate-show-card-desc
+                ">
+                    Configure and manage networks and servers
+                </p>
+            </div>
+
+            <div class="card">
+                <span class="
+                    card-icon
+                    transform
+                    group-hover:scale-150
+                    group-hover:text-blue-light
+                    group-hover:animate-show-card-icon
+                ">
+                    a
+                </span>
+                <h2 class="
+                    card-category
+                    group-hover:text-white
+                    group-hover:animate-show-card-category
+                ">
+                    Databases
+                </h2>
+                <p class="
+                    card-description
+                    group-hover:text-white
+                    group-hover:animate-show-card-desc
+                ">
+                    Learn how to work with databases
+                </p>
+            </div>
+
+        </div>
+        <!--End / Cards-->
+
+    </section>
+    <!--End / Info section-->
+    
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "name": "tailwind-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss build ./src/styles.css -o ./css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/LaietiMcLean/Tailwind-web.git"
+  },
+  "keywords": [
+    "tailwind-web"
+  ],
+  "author": "LaietiMcLean",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LaietiMcLean/Tailwind-web/issues"
+  },
+  "homepage": "https://github.com/LaietiMcLean/Tailwind-web#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.2.4",
+    "postcss": "^8.2.6",
+    "tailwindcss": "^2.0.3"
+  }
+}
