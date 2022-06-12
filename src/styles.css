@@ -166,6 +166,8 @@
             xl:mt-1
         ;
     }
+    
+    /*******Articles styles*******/
 
     .article-header {
         font-family: "BebasNeue";
@@ -181,6 +183,68 @@
             pt-5
             border
             shadow-header3D
+        ;
+    }
+
+    .article-item {
+        @apply
+            w-full
+            h-auto
+            border
+            border-gray-200
+            m-10
+            mx-auto
+            p-2.5
+            bg-white
+            text-black
+            shadow-md
+        ;
+    }
+
+    .article-data {
+        @apply
+            float-right
+            text-white
+            bg-gray-800
+            h-10
+            leading-6
+            p-2
+            -m-2.5
+            text-sm
+            rounded-bl-lg
+        ;
+    }
+
+    .article-data span {
+        @apply
+            m-2.5
+        ;
+    }
+
+    .article-head {
+        @apply
+            block
+            text-2xl
+            m-1
+        ;
+    }
+
+    .article-head a {
+        @apply
+            font-semibold 
+            text-blue-dark 
+            hover:underline
+        ;
+    }
+
+    .article-description {
+        @apply
+            block
+            mt-3
+            mb-3
+            text-base
+            font-sans
+            font-normal
         ;
     }
 
