@@ -282,4 +282,58 @@
         ;
     }
 
+    .login-input {
+        @apply
+            block
+            mx-auto
+            mt-5
+            w-10/12
+            h-8
+            border
+            border-gray-300
+            shadow-inner
+            pl-7
+            rounded-md
+            text-gray-500
+            transition
+            duration-300
+            outline-none
+            focus:outline-none
+            focus:text-gray-600
+        ;
+    }
+
+    .login-icon {
+        @apply
+            symbol
+            text-center
+            absolute
+            ml-7
+            mt-1
+            h-8
+        ;
+    }
+
+    .login-button {
+        font-family: "TrebuchetMS";
+        @apply
+            w-24
+            h-8
+            mt-5
+            ml-5
+            mb-5
+            text-center
+            text-white
+            text-base
+            font-light
+            border-blue-dark
+            bg-gradient-to-b from-blue-light to-blue-dark
+            rounded-none
+            cursor-pointer
+            transition
+            duration-300
+            hover:shadow-md
+        ;
+    }
+
 }
