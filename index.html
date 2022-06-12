@@ -141,7 +141,7 @@
         <!--End / Banner-->
 
         <!--Cards-->
-        <div id="cards" class="flex flex-nowrap justify-between">
+        <div id="cards" class="flex flex-nowrap justify-between xs:flex xs:flex-col">
             <div class="card">
                 <span class="
                     card-icon
@@ -284,7 +284,8 @@
         mx-auto
         mt-5
         flex 
-        flex-row
+        xs:flex-col
+        md:flex-row
     ">
         <!--Aside-->
         <aside id="aside" class="
@@ -292,6 +293,8 @@
             order-2
             w-72
             min-h-full
+            xs:w-full
+            xs:m-0
         ">
             <h3 class="aside-header">SEARCH</h3>
             <div id="search" class="
@@ -393,6 +396,8 @@
             order-1
             flex-grow
             mr-10
+            xs:w-full
+            xs:mr-0
         ">
 
             <h2 class="article-header">Last Articles</h2>

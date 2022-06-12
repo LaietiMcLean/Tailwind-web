@@ -272,6 +272,7 @@
     .aside-box {
         @apply
             w-10/12
+            max-w-xs
             h-60
             mt-5
             mb-7
@@ -279,6 +280,7 @@
             pt-1
             bg-white
             shadow-box
+            xs:w-60 
         ;
     }
 
