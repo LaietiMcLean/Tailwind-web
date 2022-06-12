@@ -473,11 +473,26 @@
     <!--End / Main content-->
 
     <!--Footer--> 
-    <footer id="footer">
-        <div class="container mx-auto">
-            <div id="menu-footer">
-                <h5>MENU</h5>
-                <ul>
+    <footer id="footer" class="
+        w-full
+        h-auto
+        bg-black
+        text-white
+        overflow-hidden
+    ">
+        <div class="
+            container 
+            mx-auto
+            flex
+            flex-row
+            w-11/12
+            xs:flex-col
+            md:flex-col
+            lg:flex-row
+        ">
+            <div id="menu-footer" class="footer-box">
+                <h5 class="footer-header">MENU</h5>
+                <ul class="footer-menu">
                     <li><a href="#">HOME</a></li>
                     <li><a href="#">BLOG</a></li>
                     <li><a href="#">LEARNING</a></li>
@@ -485,27 +500,44 @@
                 </ul>
             </div>
 
-            <div id="location">
-                <h5>WHERE ARE WE</h5>
-                <iframe src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12150.543269697899!2d-3.71223815941977!3d40.416917906626786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422880a07d7dc7%3A0x694aee57da1dc679!2sPuerta%20del%20Sol%2C%20Madrid!5e0!3m2!1ses!2ses!4v1655052976854!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div id="location" class="footer-box">
+                <h5 class="footer-header">WHERE ARE WE</h5>
+                <iframe src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12150.543269697899!2d-3.71223815941977!3d40.416917906626786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422880a07d7dc7%3A0x694aee57da1dc679!2sPuerta%20del%20Sol%2C%20Madrid!5e0!3m2!1ses!2ses!4v1655052976854!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                class="
+                    w-full
+                    h-80
+                    mt-3
+                    border-4
+                    border-gray-400
+                    rounded-md
+                    shadow-md
+                "></iframe>
             </div>
 
-            <div id="info">
-                <h5>DEVELOPED WITH</h5>
-                    <P>
-                        <img src="img/html5-badge-h-css3-graphics-multimedia-performance-semantics.png" alt="img">
+            <div id="info" class="footer-box">
+                <h5 class="footer-header">DEVELOPED WITH</h5>
+                    <P class="mb-6">
+                        <img class="block mx-auto" src="img/html5-badge-h-css3-graphics-multimedia-performance-semantics.png" alt="img">
                     </P>
-                <h5>OPTIMIZED FOR</h5>
-                    <p>
+                <h5 class="footer-header">OPTIMIZED FOR</h5>
+                    <div class="browsers flex flex-row space-x-5 mb-6">
                         <a href="#">
                             <img src="img/firefox-icon.png" alt="img">
+                        </a>
+                        <a href="#">
                             <img src="img/chrome.png" alt="">
+                        </a>
+                        <a href="#">
                             <img src="img/Opera_256x256.png" alt="img">
+                        </a>
+                        <a href="#">
                             <img src="img/safari.png" alt="img">
+                        </a>
+                        <a href="#">
                             <img src="img/ios.png" alt="img">
                         </a>
-                    </p>
-                <h5>AUTHOR</h5>
+                    </div>
+                <h5 class="footer-header">AUTHOR</h5>
                     <p>&copy; Curso de Udemy de Victor Robles</p>
             </div>
 
