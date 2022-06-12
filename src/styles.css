@@ -282,6 +282,8 @@
         ;
     }
 
+      /*******Aside / login styles*******/
+
     .login-input {
         @apply
             block
@@ -344,6 +346,46 @@
             text-gray-600
             hover:underline
             hover:text-blue-dark
+        ;
+    }
+
+    /*******Aside / social media styles*******/
+
+    .social-icon {
+        @apply
+            symbol
+            block
+            text-gray-700
+            text-3xl
+            mt-3
+            mb-5
+            ml-5
+        ;
+    }
+
+    .social-overlay {
+        @apply
+            block
+            absolute
+            h-10
+            pl-2
+            pr-2
+            pt-1
+            ml-16
+            -mt-14
+            font-sans
+            font-bold
+            text-gray-700
+            tracking-wide
+            shadow-md
+            border-4
+            border-white
+            bg-gray-100
+            transition
+            duration-300
+            opacity-0
+            transform
+            -translate-x-3/4
         ;
     }
 
