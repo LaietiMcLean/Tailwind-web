@@ -247,5 +247,26 @@
             font-normal
         ;
     }
+    
+
+    /*******Aside styles*******/
+
+    .aside-header {
+        font-family: "BebasNeue";
+        background: url('../img/pxgray.png'), white;
+        @apply
+            block
+            h-11
+            leading-10
+            text-3xl
+            font-medium
+            tracking-widest
+            pl-3.5
+            pt-1
+            mb-3.5
+            border
+            shadow-header3D
+        ;
+    }
 
 }
