@@ -167,4 +167,21 @@
         ;
     }
 
+    .article-header {
+        font-family: "BebasNeue";
+        background: url('../img/pxgray.png'), white;
+        @apply
+            block
+            w-full
+            h-20
+            text-center
+            text-4xl
+            font-medium
+            tracking-widest
+            pt-5
+            border
+            shadow-header3D
+        ;
+    }
+
 }

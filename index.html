@@ -278,9 +278,21 @@
     <!--End / Info section-->
 
     <!--Main content-->
-    <main >
+    <main class="
+        container 
+        w-11/12 
+        mx-auto 
+        flex 
+        flex-row
+    ">
         <!--Aside-->
-        <aside id="aside">
+        <aside id="aside" class="
+            flex-none
+            order-2
+            w-72
+            min-h-full
+            mt-5
+        ">
             <h3>SEARCH</h3>
             <div id="search">
                 <form>
@@ -331,8 +343,12 @@
         <!--End / Aside-->
 
         <!--Articles-->
-        <section>
-            <h2>Last Articles</h2>
+        <section class="
+            order-1
+            flex-grow
+            mr-10
+        ">
+            <h2 class="article-header">Last Articles</h2>
 
             <article>
                 <div>
