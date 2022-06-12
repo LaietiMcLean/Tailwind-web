@@ -247,7 +247,7 @@
             font-normal
         ;
     }
-    
+
 
     /*******Aside styles*******/
 
@@ -266,6 +266,19 @@
             mb-3.5
             border
             shadow-header3D
+        ;
+    }
+
+    .aside-box {
+        @apply
+            w-10/12
+            h-60
+            mt-5
+            mb-7
+            mx-auto
+            pt-1
+            bg-white
+            shadow-box
         ;
     }
 

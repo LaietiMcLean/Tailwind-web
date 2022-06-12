@@ -6,7 +6,8 @@ module.exports = {
                 'xs': {'max':'768px'}
             },
             boxShadow: {
-                header3D: '0px 1px 0px #393d3f, 1px 2px 0px #393d3f, 2px 3px 0px #393d3f, 3px 4px 0px #393d3f'
+                header3D: '0px 1px 0px #393d3f, 1px 2px 0px #393d3f, 2px 3px 0px #393d3f, 3px 4px 0px #393d3f',
+                box: '0px 0px 1px rgba(0, 0, 0, 0.3), 0px 3px 7px rgba(0, 0, 0, 0.3), 0px 1px white inset, 0px -3px 1px rgba(0, 0, 0, 0.3) inset'
             },
             backgroundImage: theme => ({
                 'body-pattern': "url('../img/pattern.png')",
