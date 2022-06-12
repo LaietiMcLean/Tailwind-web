@@ -336,4 +336,15 @@
         ;
     }
 
+    .login-a {
+        @apply
+            block
+            ml-4
+            text-sm
+            text-gray-600
+            hover:underline
+            hover:text-blue-dark
+        ;
+    }
+
 }
